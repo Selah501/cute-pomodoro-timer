@@ -1,16 +1,40 @@
-# React + Vite
+# 귀여운 뽀모도로 타이머 🍅
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+이 프로젝트는 React와 Tailwind CSS를 사용하여 만든 귀엽고 직관적인 뽀모도로 타이머 웹 애플리케이션입니다.  
+어두운 배경과 편안한 색감을 사용하여 눈의 피로를 최소화하고, 사랑스러운 디자인으로 집중과 휴식 시간을 즐겁게 관리할 수 있도록 만들어졌습니다.
 
-Currently, two official plugins are available:
+## ✨ 주요 기능
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*   **🍅 집중 모드 (25분)**: 25분 동안 집중해서 작업할 수 있는 타이머를 제공합니다.
+*   **☕ 휴식 모드 (5분)**: 5분의 달콤한 휴식 시간을 챙겨드립니다.
+*   **▶️ 쉬운 조작**: 시작, 일시정지, 재설정 버튼으로 간편하게 타이머를 제어할 수 있습니다.
+*   **📱 반응형 디자인**: 컴퓨터(데스크탑)뿐만 아니라 핸드폰(모바일)에서도 예쁘게 잘 보입니다.
+*   **🎨 귀여운 테마**: 둥글둥글한 UI와 감성적인 색감으로 귀여움을 더했습니다.
 
-## React Compiler
+## 🛠️ 기술 스택 (Tech Stack)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+이 프로젝트는 다음과 같은 최신 기술들을 사용하여 만들어졌습니다.
 
-## Expanding the ESLint configuration
+*   **React**: 사용자 인터페이스를 만들기 위한 자바스크립트 라이브러리
+*   **Vite**: 빠르고 현대적인 프론트엔드 빌드 도구
+*   **Tailwind CSS (v4)**: 유틸리티 우선의 CSS 프레임워크 (최신 버전 사용!)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 실행 방법 (Getting Started)
+
+내 컴퓨터에서 이 프로젝트를 실행해보려면 아래 명령어를 터미널에 입력해주세요.
+
+1.  **패키지 설치**: 필요한 도구들을 다운로드 받습니다.
+    ```bash
+    npm install
+    ```
+
+2.  **프로젝트 실행**: 개발 서버를 실행하여 웹사이트를 엽니다.
+    ```bash
+    npm run dev
+    ```
+
+3.  **확인하기**: 브라우저 주소창에 나타난 주소(보통 `http://localhost:5173`)로 접속하면 귀여운 타이머를 만날 수 있습니다!
+
+---
+
+**Made with ❤️ by JayLive & Kodari**
