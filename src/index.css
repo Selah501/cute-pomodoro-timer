@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cute-bg: #1a202c;
+  --color-cute-card: #2d3748;
+  --color-cute-text: #edf2f7;
+  --color-cute-focus: #f6ad55;
+  --color-cute-break: #68d391;
+  --color-cute-accent: #b794f4;
+
+  --font-cute: "Comic Neue", cursive, sans-serif;
+
+  --animate-bounce-slow: bounce 3s infinite;
+}
+
+/* Custom components layer */
+@layer components {
+  .btn-primary {
+    @apply px-8 py-3 rounded-full font-bold text-white shadow-lg transform active:scale-95 transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
+  }
+
+  .card-glass {
+    @apply bg-white/10 backdrop-blur-lg border border-white/20 rounded-[2rem] shadow-2xl;
+  }
+}
+
+/* Base styles */
+@layer base {
+  body {
+    @apply bg-cute-bg text-cute-text font-cute antialiased;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-cute-accent/50 rounded-full hover:bg-cute-accent;
+}
